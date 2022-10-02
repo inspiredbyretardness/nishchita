@@ -192,11 +192,18 @@ $lightGreen: #b9e7e7;
               margin: 15px;
             }
             h1 {
-              font-size: 48px;
+              font-size: 40px;
             }
-
             p {
               font-size: 18px;
+            }
+            @media only screen and (max-device-width: 400px) {
+              h1 {
+                font-size: 25px;
+              }
+              p {
+                font-size: 15px;
+              }
             }
 
             button {
