@@ -6,7 +6,7 @@ $lightGreen: #b9e7e7;
   .container {
     @media only screen and (max-device-width: 480px) {
       /* styles for mobile browsers smaller than 480px; (iPhone) */
-      width: 480px;
+      width: 100%;
     }
     @media only screen and (device-width: 768px) {
       /* default iPad screens */
@@ -188,8 +188,8 @@ $lightGreen: #b9e7e7;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            @media only screen and (min-device-width: 480px) {
-              margin: 10px;
+            @media only screen and (max-device-width: 400px) {
+              margin: 15px;
             }
             h1 {
               font-size: 48px;
